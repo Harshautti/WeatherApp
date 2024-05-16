@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(52, 48, 48);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.card{
+    background-color: rgb(139, 192, 192);
+    display: inline-block;
+    justify-content: center;
+    border-radius: 10%;
+    height: 75vh;
+}
+.search{
+    display: block;
+    justify-content: center;
+    padding: 30px;
+}
+.input{
+    height: 40px;
+    width: 250px;
+    border-radius:10px ;
+    padding: 5px;
+    font-size: 20px;
+   
+}
+.btn{
+    color: aquamarine;
+    background-color: rgb(90, 142, 158);
+    width: 60px;
+    height: 50px;
+    border-radius: 40%;
+    padding: 10px;
+}
+.image,.city,.temp,.air{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.temp{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(242, 22, 10);
+}
+.city{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(14, 14, 225);
+}
+.humidity{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 7px 25px;
+}
+.humidityPer,.wind{
+    margin: 3px auto;
+    color: rgb(145, 5, 152);
+    font-size: 30px;
+}
+.windSpeed{
+    font-size: 20px;
+    margin: 3px auto;
+    font-weight: bolder;
+    padding: 7px;
+    margin: 3px;
+}
+.img{
+    height: 100px;
+}
